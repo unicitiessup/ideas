@@ -1,0 +1,45 @@
+{
+  "101da89b-cfe1-4a96-9808-c3bcd58ae2b3": {
+    "appActions": [
+      "UserPhotoV2"
+    ],
+    "connectionRef": {
+      "apiTier": "Standard",
+      "displayName": "Користувачі Office 365",
+      "iconUri": "https://connectoricons-prod.azureedge.net/releases/v1.0.1672/1.0.1672.3545/office365users/icon.png",
+      "id": "/providers/microsoft.powerapps/apis/shared_office365users",
+      "parameterHints": {},
+      "parameterHintsV2": {}
+    },
+    "datasets": {},
+    "dataSources": [
+      "Microsoft365Users"
+    ],
+    "dependencies": {},
+    "dependents": [],
+    "id": "101da89b-cfe1-4a96-9808-c3bcd58ae2b3"
+  },
+  "6a0486d6-7efc-4ced-ad0b-7cf8ddc422e5": {
+    "appActions": [
+      "GetAllTeams",
+      "GetTeam",
+      "GetChannelsForGroup",
+      "PostMessageToChannelV3"
+    ],
+    "connectionRef": {
+      "apiTier": "Standard",
+      "displayName": "Microsoft Teams",
+      "iconUri": "https://connectoricons-prod.azureedge.net/releases/v1.0.1680/1.0.1680.3652/teams/icon.png",
+      "id": "/providers/microsoft.powerapps/apis/shared_teams",
+      "parameterHints": {},
+      "parameterHintsV2": {}
+    },
+    "datasets": {},
+    "dataSources": [
+      "MicrosoftTeams"
+    ],
+    "dependencies": {},
+    "dependents": [],
+    "id": "6a0486d6-7efc-4ced-ad0b-7cf8ddc422e5"
+  }
+}
