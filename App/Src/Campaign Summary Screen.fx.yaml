@@ -3783,74 +3783,6 @@
             Width: =Parent.Width
             ZIndex: =6
 
-            btnIdeaSummary_Add As button:
-                BorderColor: =gblAppStyles.ButtonPrimary.BorderColor
-                BorderThickness: =gblAppStyles.ButtonPrimary.BorderThickness
-                Color: =gblAppStyles.ButtonPrimary.Color
-                DisabledBorderColor: =gblAppStyles.ButtonPrimary.DisabledBorderColor
-                DisabledColor: =gblAppStyles.ButtonPrimary.DisabledColor
-                DisabledFill: =gblAppStyles.ButtonPrimary.DisabledFill
-                Fill: =gblAppStyles.ButtonPrimary.Fill
-                FocusedBorderColor: =gblAppStyles.ButtonPrimary.FocusedBorderColor
-                FocusedBorderThickness: =gblAppStyles.ButtonPrimary.FocusedBorderThickness
-                Font: =Font.'Segoe UI'
-                Height: =32
-                HoverBorderColor: =gblAppStyles.ButtonPrimary.HoverBorderColor
-                HoverColor: =gblAppStyles.ButtonPrimary.HoverColor
-                HoverFill: =gblAppStyles.ButtonPrimary.HoverFill
-                OnSelect: |-
-                    =UpdateContext({locBlockUserInput: true});
-                    Navigate(
-                        'Campaign Detail Screen',
-                        ScreenTransition.Fade,
-                        {
-                            locVisibleCampaignCreate: false,
-                            locVisibleCampaignEdit: false,
-                            locVisibleCampaignView: true,
-                            locVisibleCampaignIdea: false,
-                            locCreateNewCampaign: true
-                        }
-                    );
-                    UpdateContext({locBlockUserInput: false});
-                PaddingBottom: =0
-                PaddingLeft: =0
-                PaddingRight: =0
-                PaddingTop: =0
-                PressedBorderColor: =gblAppStyles.ButtonPrimary.PressedBorderColor
-                PressedColor: =gblAppStyles.ButtonPrimary.PressedColor
-                PressedFill: =gblAppStyles.ButtonPrimary.PressedFill
-                RadiusBottomLeft: =gblAppStyles.ButtonPrimary.RadiusBottomLeft
-                RadiusBottomRight: =gblAppStyles.ButtonPrimary.RadiusBottomRight
-                RadiusTopLeft: =gblAppStyles.ButtonPrimary.RadiusTopLeft
-                RadiusTopRight: =gblAppStyles.ButtonPrimary.RadiusTopRight
-                Size: =gblAppStyles.ButtonPrimary.Size - If(Self.Width < 120,2,0)
-                Text: |-
-                    =With(
-                        {
-                            varDefault: "Add campaign",
-                            varOOBTextId: "_translateCommon__Addcampaign"
-                        },
-                        With(
-                            {
-                                varLocalizedText: LookUp(
-                                    colLocalization,
-                                    OOBTextId = varOOBTextId,
-                                    LocalizedText
-                                )
-                            },
-                            Coalesce(
-                                varLocalizedText,
-                                varDefault
-                            )
-                        )
-                    )
-                Tooltip: =Self.Text
-                Visible: =gblAppManager
-                Width: =Min(280,Parent.Width * .175)
-                X: =Parent.Width - Self.Width - gblPadding.Page
-                Y: =txtIdeaSummary_Search.Y
-                ZIndex: =1
-
             drpIdeaSummary_Status As dropdown:
                 AccessibleLabel: |-
                     =With(
@@ -4086,7 +4018,7 @@
                         gblAppManager,
                         Min(
                             400,
-                            Parent.Width - btnIdeaSummary_Add.Width - drpIdeaSummary_Status.Width - 80
+                            Parent.Width - drpIdeaSummary_Status.Width - 80
                         ),
                         ((Parent.Width * 0.5) - (Self.X * 1.5))
                     )

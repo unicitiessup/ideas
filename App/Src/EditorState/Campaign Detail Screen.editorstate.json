@@ -136,7 +136,7 @@
       "MetaDataIDKey": "",
       "Name": "addFileIdea",
       "OptimizeForDevices": "Off",
-      "ParentIndex": 3,
+      "ParentIndex": 4,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -2537,7 +2537,7 @@
       "MetaDataIDKey": "",
       "Name": "btnAddFile",
       "OptimizeForDevices": "Off",
-      "ParentIndex": 0,
+      "ParentIndex": 2,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -3481,7 +3481,7 @@
       "MetaDataIDKey": "",
       "Name": "btnCampaignDetailControls_Back",
       "OptimizeForDevices": "Off",
-      "ParentIndex": 9,
+      "ParentIndex": 10,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -5390,7 +5390,7 @@
       "MetaDataIDKey": "",
       "Name": "btnCampaignDetailControls_Edit",
       "OptimizeForDevices": "Off",
-      "ParentIndex": 4,
+      "ParentIndex": 2,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -6322,7 +6322,7 @@
       "MetaDataIDKey": "",
       "Name": "btnCampaignDetailControls_Submit",
       "OptimizeForDevices": "Off",
-      "ParentIndex": 2,
+      "ParentIndex": 4,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -14687,7 +14687,7 @@
       "MetaDataIDKey": "",
       "Name": "canvCampaignResponsesFilesImages",
       "OptimizeForDevices": "Off",
-      "ParentIndex": 3,
+      "ParentIndex": 4,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -15501,7 +15501,7 @@
       "MetaDataIDKey": "",
       "Name": "comHeader_CampaignDetail",
       "OptimizeForDevices": "Off",
-      "ParentIndex": 1,
+      "ParentIndex": 2,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -16293,7 +16293,7 @@
       "MetaDataIDKey": "",
       "Name": "conCampaignDetailNav",
       "OptimizeForDevices": "Off",
-      "ParentIndex": 4,
+      "ParentIndex": 5,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -16750,7 +16750,7 @@
       "MetaDataIDKey": "",
       "Name": "conCampaignDetailsPane",
       "OptimizeForDevices": "Off",
-      "ParentIndex": 5,
+      "ParentIndex": 6,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -17367,7 +17367,7 @@
       "MetaDataIDKey": "",
       "Name": "conCampaignIdeaPane",
       "OptimizeForDevices": "Off",
-      "ParentIndex": 6,
+      "ParentIndex": 7,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -17831,7 +17831,7 @@
       "MetaDataIDKey": "",
       "Name": "conConfirmDelete",
       "OptimizeForDevices": "Off",
-      "ParentIndex": 1,
+      "ParentIndex": 0,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -18156,7 +18156,7 @@
       "MetaDataIDKey": "",
       "Name": "conIdeaSubmitted",
       "OptimizeForDevices": "Off",
-      "ParentIndex": 7,
+      "ParentIndex": 8,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -18308,7 +18308,7 @@
       "MetaDataIDKey": "",
       "Name": "conModalDialog",
       "OptimizeForDevices": "Off",
-      "ParentIndex": 2,
+      "ParentIndex": 3,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -19635,7 +19635,7 @@
       "MetaDataIDKey": "",
       "Name": "dtpHeroFormCampaign_CampaignStart",
       "OptimizeForDevices": "Off",
-      "ParentIndex": 17,
+      "ParentIndex": 19,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -20624,7 +20624,7 @@
       "MetaDataIDKey": "",
       "Name": "galCampaignQuestionResponseType",
       "OptimizeForDevices": "Off",
-      "ParentIndex": 5,
+      "ParentIndex": 4,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -22805,7 +22805,7 @@
       "MetaDataIDKey": "",
       "Name": "imgAddFile",
       "OptimizeForDevices": "Off",
-      "ParentIndex": 2,
+      "ParentIndex": 3,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -24116,7 +24116,7 @@
       "MetaDataIDKey": "",
       "Name": "imgCampaignDetailControls_Back",
       "OptimizeForDevices": "Off",
-      "ParentIndex": 8,
+      "ParentIndex": 9,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -24745,7 +24745,7 @@
       "MetaDataIDKey": "",
       "Name": "imgCampaignDetailControls_Duplicate",
       "OptimizeForDevices": "Off",
-      "ParentIndex": 10,
+      "ParentIndex": 8,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -26348,7 +26348,7 @@
       "MetaDataIDKey": "",
       "Name": "imgCampaignIdeaCard_CoverImage",
       "OptimizeForDevices": "Off",
-      "ParentIndex": 4,
+      "ParentIndex": 3,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -27620,7 +27620,7 @@
       "MetaDataIDKey": "",
       "Name": "imgFormCampaignDescription_Required",
       "OptimizeForDevices": "Off",
-      "ParentIndex": 13,
+      "ParentIndex": 14,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -27978,7 +27978,7 @@
       "MetaDataIDKey": "",
       "Name": "imgFormCampaignIconEditImage",
       "OptimizeForDevices": "Off",
-      "ParentIndex": 20,
+      "ParentIndex": 12,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -30921,7 +30921,7 @@
       "MetaDataIDKey": "",
       "Name": "imgQuestionAddNew",
       "OptimizeForDevices": "Off",
-      "ParentIndex": 1,
+      "ParentIndex": 0,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -31279,7 +31279,7 @@
       "MetaDataIDKey": "",
       "Name": "imgQuestionDelete",
       "OptimizeForDevices": "Off",
-      "ParentIndex": 6,
+      "ParentIndex": 5,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -31652,7 +31652,7 @@
       "MetaDataIDKey": "",
       "Name": "imgQuestionSequenceDown",
       "OptimizeForDevices": "Off",
-      "ParentIndex": 8,
+      "ParentIndex": 7,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -32025,7 +32025,7 @@
       "MetaDataIDKey": "",
       "Name": "imgQuestionSequenceUp",
       "OptimizeForDevices": "Off",
-      "ParentIndex": 7,
+      "ParentIndex": 6,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -33036,7 +33036,7 @@
       "MetaDataIDKey": "",
       "Name": "lblBlockUserInput_CampaignDetails",
       "OptimizeForDevices": "Off",
-      "ParentIndex": 3,
+      "ParentIndex": 4,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -44210,7 +44210,7 @@
       "MetaDataIDKey": "",
       "Name": "lblDatePicker_Divider",
       "OptimizeForDevices": "Off",
-      "ParentIndex": 19,
+      "ParentIndex": 20,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -44633,7 +44633,7 @@
       "MetaDataIDKey": "",
       "Name": "lbldeaFiles_Header",
       "OptimizeForDevices": "Off",
-      "ParentIndex": 1,
+      "ParentIndex": 0,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -45107,7 +45107,7 @@
       "MetaDataIDKey": "",
       "Name": "lblFormCampaignDateRange",
       "OptimizeForDevices": "Off",
-      "ParentIndex": 15,
+      "ParentIndex": 16,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -45591,7 +45591,7 @@
       "MetaDataIDKey": "",
       "Name": "lblFormCampaignDateRangeInstructions",
       "OptimizeForDevices": "Off",
-      "ParentIndex": 16,
+      "ParentIndex": 17,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -52387,7 +52387,7 @@
       "MetaDataIDKey": "",
       "Name": "lblModalDialogCancel",
       "OptimizeForDevices": "Off",
-      "ParentIndex": 0,
+      "ParentIndex": 1,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -52850,7 +52850,7 @@
       "MetaDataIDKey": "",
       "Name": "lblQuestionHeader",
       "OptimizeForDevices": "Off",
-      "ParentIndex": 0,
+      "ParentIndex": 1,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -53302,7 +53302,7 @@
       "MetaDataIDKey": "",
       "Name": "lblQuestionsInstructions",
       "OptimizeForDevices": "Off",
-      "ParentIndex": 2,
+      "ParentIndex": 3,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -53759,7 +53759,7 @@
       "MetaDataIDKey": "",
       "Name": "lblQuestionsResponseType",
       "OptimizeForDevices": "Off",
-      "ParentIndex": 3,
+      "ParentIndex": 2,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -54545,7 +54545,7 @@
       "MetaDataIDKey": "",
       "Name": "lblScreenAnnounce_CampaignDetail",
       "OptimizeForDevices": "Off",
-      "ParentIndex": 0,
+      "ParentIndex": 1,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -55458,7 +55458,7 @@
       "MetaDataIDKey": "",
       "Name": "shpFormCampaignDescription_Required",
       "OptimizeForDevices": "Off",
-      "ParentIndex": 14,
+      "ParentIndex": 15,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -55797,7 +55797,7 @@
       "MetaDataIDKey": "",
       "Name": "shpIdeaFiles_Divider",
       "OptimizeForDevices": "Off",
-      "ParentIndex": 4,
+      "ParentIndex": 1,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -58022,7 +58022,7 @@
       "MetaDataIDKey": "",
       "Name": "tmrSetFocus",
       "OptimizeForDevices": "Off",
-      "ParentIndex": 8,
+      "ParentIndex": 0,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -58998,7 +58998,7 @@
       "MetaDataIDKey": "",
       "Name": "txtFormCampaignDescription",
       "OptimizeForDevices": "Off",
-      "ParentIndex": 12,
+      "ParentIndex": 13,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -60611,7 +60611,7 @@
       "MetaDataIDKey": "",
       "Name": "txtQuestionInstructions",
       "OptimizeForDevices": "Off",
-      "ParentIndex": 4,
+      "ParentIndex": 8,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {

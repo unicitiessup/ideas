@@ -259,7 +259,7 @@
         "OptimizeForDevices": "Off",
         "Parent": "comMobileHeader",
         "PersistMetaDataIDKey": false,
-        "PublishOrderIndex": 537,
+        "PublishOrderIndex": 536,
         "Rules": [
           {
             "Category": "Data",
