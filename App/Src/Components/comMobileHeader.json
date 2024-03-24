@@ -554,7 +554,7 @@
       "inputHeaderTextHoverColor",
       "inputHeaderTextPressedColor"
     ],
-    "LastModifiedTimestamp": "638468933044494608",
+    "LastModifiedTimestamp": "638468959010829916",
     "Name": "comMobileHeader",
     "Rules": [
       {
@@ -704,7 +704,7 @@
   "IsPcfControl": false,
   "IsPremiumPcfControl": false,
   "IsWidgetTemplate": false,
-  "LastModifiedTimestamp": "638468933044494608",
+  "LastModifiedTimestamp": "638468959010829916",
   "Name": "3d82fb9d2eab49fbb36727588cc95a66",
   "OverridableProperties": {},
   "TemplateOriginalName": "5a7bdb6058354a3c8785ed90b90454d5",

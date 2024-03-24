@@ -857,82 +857,6 @@
     "Type": "OptionSetInfo"
   },
   {
-    "DisplayName": "Address 1: Address Type (Users)",
-    "Name": "systemuser_address1_addresstypecode",
-    "OptionSetInfoNameMapping": {
-      "1": "Default Value"
-    },
-    "OptionSetIsBooleanValued": false,
-    "OptionSetIsGlobal": false,
-    "OptionSetReference": {
-      "OptionSetReferenceItem0": {
-        "OptionSetReferenceColumnName": "address1_addresstypecode",
-        "OptionSetReferenceEntityName": "Users"
-      }
-    },
-    "OptionSetTypeKey": "PicklistType",
-    "RelatedColumnInvariantName": "address1_addresstypecode",
-    "RelatedEntityName": "Users",
-    "Type": "OptionSetInfo"
-  },
-  {
-    "DisplayName": "Address 1: Shipping Method (Users)",
-    "Name": "systemuser_address1_shippingmethodcode",
-    "OptionSetInfoNameMapping": {
-      "1": "Default Value"
-    },
-    "OptionSetIsBooleanValued": false,
-    "OptionSetIsGlobal": false,
-    "OptionSetReference": {
-      "OptionSetReferenceItem0": {
-        "OptionSetReferenceColumnName": "address1_shippingmethodcode",
-        "OptionSetReferenceEntityName": "Users"
-      }
-    },
-    "OptionSetTypeKey": "PicklistType",
-    "RelatedColumnInvariantName": "address1_shippingmethodcode",
-    "RelatedEntityName": "Users",
-    "Type": "OptionSetInfo"
-  },
-  {
-    "DisplayName": "Address 2: Address Type (Users)",
-    "Name": "systemuser_address2_addresstypecode",
-    "OptionSetInfoNameMapping": {
-      "1": "Default Value"
-    },
-    "OptionSetIsBooleanValued": false,
-    "OptionSetIsGlobal": false,
-    "OptionSetReference": {
-      "OptionSetReferenceItem0": {
-        "OptionSetReferenceColumnName": "address2_addresstypecode",
-        "OptionSetReferenceEntityName": "Users"
-      }
-    },
-    "OptionSetTypeKey": "PicklistType",
-    "RelatedColumnInvariantName": "address2_addresstypecode",
-    "RelatedEntityName": "Users",
-    "Type": "OptionSetInfo"
-  },
-  {
-    "DisplayName": "Address 2: Shipping Method (Users)",
-    "Name": "systemuser_address2_shippingmethodcode",
-    "OptionSetInfoNameMapping": {
-      "1": "Default Value"
-    },
-    "OptionSetIsBooleanValued": false,
-    "OptionSetIsGlobal": false,
-    "OptionSetReference": {
-      "OptionSetReferenceItem0": {
-        "OptionSetReferenceColumnName": "address2_shippingmethodcode",
-        "OptionSetReferenceEntityName": "Users"
-      }
-    },
-    "OptionSetTypeKey": "PicklistType",
-    "RelatedColumnInvariantName": "address2_shippingmethodcode",
-    "RelatedEntityName": "Users",
-    "Type": "OptionSetInfo"
-  },
-  {
     "DisplayName": "Azure State (Users)",
     "Name": "systemuser_azurestate",
     "OptionSetInfoNameMapping": {
@@ -1041,50 +965,6 @@
     },
     "OptionSetTypeKey": "BooleanType",
     "RelatedColumnInvariantName": "displayinserviceviews",
-    "RelatedEntityName": "Users",
-    "Type": "OptionSetInfo"
-  },
-  {
-    "DisplayName": "Primary Email Status (Users)",
-    "Name": "systemuser_emailrouteraccessapproval",
-    "OptionSetInfoNameMapping": {
-      "0": "Empty",
-      "1": "Approved",
-      "2": "Pending Approval",
-      "3": "Rejected"
-    },
-    "OptionSetIsBooleanValued": false,
-    "OptionSetIsGlobal": false,
-    "OptionSetReference": {
-      "OptionSetReferenceItem0": {
-        "OptionSetReferenceColumnName": "emailrouteraccessapproval",
-        "OptionSetReferenceEntityName": "Users"
-      }
-    },
-    "OptionSetTypeKey": "PicklistType",
-    "RelatedColumnInvariantName": "emailrouteraccessapproval",
-    "RelatedEntityName": "Users",
-    "Type": "OptionSetInfo"
-  },
-  {
-    "DisplayName": "Incoming Email Delivery Method (Users)",
-    "Name": "systemuser_incomingemaildeliverymethod",
-    "OptionSetInfoNameMapping": {
-      "0": "None",
-      "1": "Microsoft Dynamics 365 for Outlook",
-      "2": "Server-Side Synchronization or Email Router",
-      "3": "Forward Mailbox"
-    },
-    "OptionSetIsBooleanValued": false,
-    "OptionSetIsGlobal": false,
-    "OptionSetReference": {
-      "OptionSetReferenceItem0": {
-        "OptionSetReferenceColumnName": "incomingemaildeliverymethod",
-        "OptionSetReferenceEntityName": "Users"
-      }
-    },
-    "OptionSetTypeKey": "PicklistType",
-    "RelatedColumnInvariantName": "incomingemaildeliverymethod",
     "RelatedEntityName": "Users",
     "Type": "OptionSetInfo"
   },
@@ -1251,26 +1131,6 @@
     },
     "OptionSetTypeKey": "PicklistType",
     "RelatedColumnInvariantName": "outgoingemaildeliverymethod",
-    "RelatedEntityName": "Users",
-    "Type": "OptionSetInfo"
-  },
-  {
-    "DisplayName": "Preferred Address (Users)",
-    "Name": "systemuser_preferredaddresscode",
-    "OptionSetInfoNameMapping": {
-      "1": "Mailing Address",
-      "2": "Other Address"
-    },
-    "OptionSetIsBooleanValued": false,
-    "OptionSetIsGlobal": false,
-    "OptionSetReference": {
-      "OptionSetReferenceItem0": {
-        "OptionSetReferenceColumnName": "preferredaddresscode",
-        "OptionSetReferenceEntityName": "Users"
-      }
-    },
-    "OptionSetTypeKey": "PicklistType",
-    "RelatedColumnInvariantName": "preferredaddresscode",
     "RelatedEntityName": "Users",
     "Type": "OptionSetInfo"
   },
