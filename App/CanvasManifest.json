@@ -113,13 +113,13 @@
     "Id": "394d94a8-946b-4698-8812-d89141084534",
     "InstrumentationKey": "",
     "ManualOfflineProfileId": "",
-    "Name": "Ideas",
+    "Name": "Ideas page",
     "OriginatingVersion": "1.289",
     "ParserErrorCount": 0,
     "ShowStatusBar": false
   },
   "PublishInfo": {
-    "AppName": "Ideas",
+    "AppName": "Ideas page",
     "BackgroundColor": "rgba(104, 101, 171, 1)",
     "IconColor": "RGBA(255,255,255,1)",
     "IconName": "Edit",
