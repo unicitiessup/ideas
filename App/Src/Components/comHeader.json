@@ -274,7 +274,7 @@
         "OptimizeForDevices": "Off",
         "Parent": "comHeader",
         "PersistMetaDataIDKey": false,
-        "PublishOrderIndex": 537,
+        "PublishOrderIndex": 535,
         "Rules": [
           {
             "Category": "Data",
@@ -814,7 +814,7 @@
         "OptimizeForDevices": "Off",
         "Parent": "comHeader",
         "PersistMetaDataIDKey": false,
-        "PublishOrderIndex": 538,
+        "PublishOrderIndex": 536,
         "Rules": [
           {
             "Category": "Data",
@@ -1195,7 +1195,7 @@
         "OptimizeForDevices": "Off",
         "Parent": "comHeader",
         "PersistMetaDataIDKey": false,
-        "PublishOrderIndex": 539,
+        "PublishOrderIndex": 537,
         "Rules": [
           {
             "Category": "Data",
@@ -1682,7 +1682,7 @@
         "OptimizeForDevices": "Off",
         "Parent": "comHeader",
         "PersistMetaDataIDKey": false,
-        "PublishOrderIndex": 540,
+        "PublishOrderIndex": 538,
         "Rules": [
           {
             "Category": "Data",
@@ -2069,7 +2069,7 @@
         "OptimizeForDevices": "Off",
         "Parent": "comHeader",
         "PersistMetaDataIDKey": false,
-        "PublishOrderIndex": 541,
+        "PublishOrderIndex": 539,
         "Rules": [
           {
             "Category": "Data",
@@ -2556,7 +2556,7 @@
         "OptimizeForDevices": "Off",
         "Parent": "comHeader",
         "PersistMetaDataIDKey": false,
-        "PublishOrderIndex": 542,
+        "PublishOrderIndex": 540,
         "Rules": [
           {
             "Category": "Data",
@@ -2900,7 +2900,7 @@
         "OptimizeForDevices": "Off",
         "Parent": "comHeader",
         "PersistMetaDataIDKey": false,
-        "PublishOrderIndex": 543,
+        "PublishOrderIndex": 541,
         "Rules": [
           {
             "Category": "Data",
@@ -3114,7 +3114,7 @@
       "inputHelpIcon",
       "inputHelpScreen"
     ],
-    "LastModifiedTimestamp": "638468959010859343",
+    "LastModifiedTimestamp": "638469805224796381",
     "Name": "comHeader",
     "Rules": [
       {
@@ -3386,7 +3386,7 @@
   "IsPcfControl": false,
   "IsPremiumPcfControl": false,
   "IsWidgetTemplate": false,
-  "LastModifiedTimestamp": "638468959010859343",
+  "LastModifiedTimestamp": "638469805224796381",
   "Name": "9c8c4e8fc5b041e9b206012ab3b5e12a",
   "OverridableProperties": {},
   "TemplateOriginalName": "b3275c9127ad4292830d9cabec4d9d5a",

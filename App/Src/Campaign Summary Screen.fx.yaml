@@ -3300,32 +3300,22 @@
                                 drpIdeaSummary_Status.SelectedText.'data-ADB4D7A662F548B49FAC2B986E348A1BdrpValue',
                                 2,
                                 Filter(
-                                    'Employee Idea Campaigns',
-                                    'Employee Idea Campaigns (Views)'.'Active Employee Idea Campaigns'
+                                    'Employee Ideas',
+                                    'Employee Ideas (Views)'.'Active Employee Ideas'
                                 ),
-                                3,
-                                Filter(
-                                    'Employee Idea Campaigns',
-                                    'Employee Idea Campaigns (Views)'.'Expired Employee Idea Campaigns'
-                                ),
-                                4,
-                                Filter(
-                                    'Employee Idea Campaigns',
-                                    'Employee Idea Campaigns (Views)'.'Not Started Employee Idea Campaigns'
-                                ),
-                                'Employee Idea Campaigns'
+                                'Employee Ideas'
                             ),
                             Filter(
-                                'Employee Idea Campaigns',
-                                'Employee Idea Campaigns (Views)'.'Active Employee Idea Campaigns'
+                                'Employee Ideas',
+                                'Employee Ideas (Views)'.'Active Employee Ideas'
                             )
                         ),
                         "createdon",
                         SortOrder.Descending
                     ),
                     txtIdeaSummary_Search.Text,
-                    "msft_name",
-                    "msft_description"
+                    "msft_name", // Assuming 'IdeaName' is the field for the idea's name
+                    "msft_description" // Assuming 'IdeaDescription' is the field for the idea's description
                 )
             Layout: =Layout.Vertical
             LoadingSpinner: =LoadingSpinner.Data
@@ -3437,276 +3427,6 @@
                 Y: =lblIdeaSummary_Title.Y + lblIdeaSummary_Title.Height
                 ZIndex: =3
 
-            lblIdeaSummary_Status As label:
-                BorderColor: =gblAppStyles.Label.BorderColor
-                BorderThickness: =gblAppStyles.Label.BorderThickness
-                Color: |-
-                    =With(
-                        {
-                            varColorActive: If(
-                                gblThemeHiCo,
-                                gblAppColors.HighContrastText,
-                                gblThemeDark,
-                                gblAppColors.MessagesDarkWebSuccessIcon,
-                                gblAppColors.MessagesDefaultWebSuccessIcon
-                            ),
-                            varColorExpired: If(
-                                gblThemeHiCo,
-                                gblAppColors.HighContrastText,
-                                gblThemeDark,
-                                gblAppColors.MessagesDarkWebErrorBlockIcon,
-                                gblAppColors.MessagesDefaultWebErrorBlockIcon
-                            ),
-                            varColorNotStarted: If(
-                                gblThemeHiCo,
-                                gblAppColors.HighContrastText,
-                                gblThemeDark,
-                                gblAppColors.MessagesDarkWebWarningIcon,
-                                gblAppColors.MessagesDefaultWebWarningIcon
-                            )
-                        },
-                        Switch(
-                            ThisItem.'Campaign Status',
-                            'Employee Idea Campaign Status'.Active,
-                            varColorActive,//gblColorPalette.TeamsBrand1,
-                            'Employee Idea Campaign Status'.Expired,
-                            varColorExpired,//gblColorPalette.StatusRedFaded,
-                            'Employee Idea Campaign Status'.'Not Started',
-                            varColorNotStarted,//gblColorPalette.StatusHighlight,
-                            gblAppStyles.ButtonPrimary.Fill
-                        )
-                    )
-                    //gblAppStyles.Label.Color
-                DisabledBorderColor: =gblAppStyles.Label.DisabledBorderColor
-                DisabledColor: =gblAppStyles.Label.DisabledColor
-                DisabledFill: =gblAppStyles.Label.DisabledFill
-                Fill: =gblAppStyles.Label.Fill
-                FocusedBorderColor: =gblAppStyles.Label.FocusedBorderColor
-                FocusedBorderThickness: =gblAppStyles.Label.FocusedBorderThickness
-                Font: =Font.'Segoe UI'
-                Height: =Parent.TemplateHeight - Self.Y
-                HoverBorderColor: =gblAppStyles.Label.HoverBorderColor
-                HoverColor: =gblAppStyles.Label.HoverColor
-                HoverFill: =gblAppStyles.Label.HoverFill
-                OnSelect: =Select(Parent)
-                PaddingBottom: =12
-                PaddingLeft: =16
-                PaddingRight: =0
-                PressedBorderColor: =gblAppStyles.Label.PressedBorderColor
-                PressedColor: =gblAppStyles.Label.PressedColor
-                PressedFill: =gblAppStyles.Label.PressedFill
-                Size: =gblAppStyles.Label.Size.Small
-                Text: |-
-                    =With(
-                        {
-                            varDateDiff: DateDiff(
-                                gblToday,
-                                Coalesce(
-                                    ThisItem.'End Date',
-                                    Today()
-                                )
-                            ),
-                            varLabelExpired: With(
-                                {
-                                    varDefault: "Expired",
-                                    varOOBTextId: "_translateTableValue__Expired"
-                                },
-                                With(
-                                    {
-                                        varLocalizedText: LookUp(
-                                            colLocalization,
-                                            OOBTextId = varOOBTextId,
-                                            LocalizedText
-                                        )
-                                    },
-                                    Coalesce(
-                                        varLocalizedText,
-                                        varDefault
-                                    )
-                                )
-                            ),
-                            varLabelNotStarted: With(
-                                {
-                                    varDefault: "Not started",
-                                    varOOBTextId: "_translateTableValue__NotStarted"
-                                },
-                                With(
-                                    {
-                                        varLocalizedText: LookUp(
-                                            colLocalization,
-                                            OOBTextId = varOOBTextId,
-                                            LocalizedText
-                                        )
-                                    },
-                                    Coalesce(
-                                        varLocalizedText,
-                                        varDefault
-                                    )
-                                )
-                            )
-                        },
-                        With(
-                            {
-                                varDaysLeft: With(
-                                    {
-                                        varDefault: Concatenate(
-                                            Text(varDateDiff),
-                                            If (
-                                                varDateDiff = 1,
-                                                " day left",
-                                                " days left"
-                                            )
-                                        ),
-                                        varOOBTextId: If (
-                                            varDateDiff = 1,
-                                            "_translateVariable__dayleft",
-                                            "_translateVariable__daysleft"
-                                        ),
-                                        varParam0: varDateDiff,
-                                        varParam1: Blank(),
-                                        varParam2: Blank()
-                                    },
-                                    With(
-                                        {
-                                            varLocalizedText: LookUp(
-                                                colLocalization,
-                                                OOBTextId = varOOBTextId,
-                                                LocalizedText
-                                            )
-                                        },
-                                        If(
-                                            IsBlankOrError(varParam0),
-                                            Coalesce(
-                                                varLocalizedText,
-                                                varDefault
-                                            ),
-                                            Coalesce(
-                                                Substitute(
-                                                    Substitute(
-                                                        Substitute(
-                                                            varLocalizedText,
-                                                            "{0}",
-                                                            Text(varParam0)
-                                                        ),
-                                                        "{1}",
-                                                        Text(varParam1)
-                                                    ),
-                                                    "{2}",
-                                                    Text(varParam2)
-                                                ),
-                                                varDefault
-                                            )
-                                        )
-                                    )
-                                )
-                            },
-                            If(
-                                ThisItem.'Campaign Status' = 'Employee Idea Campaign Status'.Expired,
-                                varLabelExpired,
-                                ThisItem.'Campaign Status' = 'Employee Idea Campaign Status'.'Not Started',
-                                varLabelNotStarted,
-                                varDaysLeft
-                            )
-                        )
-                    )
-                Width: =lblIdeaSummary_IdeaCount.X - Self.X
-                X: =0*0
-                Y: =lblIdeaSummary_Description.Y + lblIdeaSummary_Description.Height
-                ZIndex: =4
-
-            lblIdeaSummary_IdeaCount As label:
-                Align: =Align.Right
-                BorderColor: =gblAppStyles.Label.BorderColor
-                BorderThickness: =gblAppStyles.Label.BorderThickness
-                Color: =gblAppStyles.Label.Color
-                DisabledBorderColor: =gblAppStyles.Label.DisabledBorderColor
-                DisabledColor: =gblAppStyles.Label.DisabledColor
-                DisabledFill: =gblAppStyles.Label.DisabledFill
-                Fill: =gblAppStyles.Label.Fill
-                FocusedBorderColor: =gblAppStyles.Label.FocusedBorderColor
-                FocusedBorderThickness: =gblAppStyles.Label.FocusedBorderThickness
-                Font: =Font.'Segoe UI'
-                Height: =lblIdeaSummary_Status.Height
-                HoverBorderColor: =gblAppStyles.Label.HoverBorderColor
-                HoverColor: =gblAppStyles.Label.HoverColor
-                HoverFill: =gblAppStyles.Label.HoverFill
-                OnSelect: =Select(Parent)
-                PaddingBottom: =12
-                PaddingLeft: =0
-                PaddingRight: =20
-                PressedBorderColor: =gblAppStyles.Label.PressedBorderColor
-                PressedColor: =gblAppStyles.Label.PressedColor
-                PressedFill: =gblAppStyles.Label.PressedFill
-                Size: =gblAppStyles.Label.Size.Small
-                Text: |-
-                    =With(
-                        {varRows: ThisItem.'Employee Ideas'},// Idea Rows
-                        With(
-                            {
-                                varRowCount: Coalesce(
-                                    CountRows(varRows),
-                                    0 // Indicates row count, and defaults to 0 if unknown (or zero)
-                                )
-                            },
-                            With(
-                                {
-                                    varDefault: Concatenate(
-                                        Text(varRowCount),
-                                        If(
-                                            varRowCount = 1,
-                                            " idea",
-                                            " ideas"
-                                        )
-                                    ),
-                                    varOOBTextId: If(
-                                        varRowCount = 1,
-                                        "_translateVariable__idea",
-                                        "_translateVariable__ideas"
-                                    ),
-                                    varParam0: varRowCount,
-                                    varParam1: Blank(),
-                                    varParam2: Blank()
-                                },
-                                With(
-                                    {
-                                        varLocalizedText: LookUp(
-                                            colLocalization,
-                                            OOBTextId = varOOBTextId,
-                                            LocalizedText
-                                        )
-                                    },
-                                    If(
-                                        IsBlankOrError(varParam0),
-                                        Coalesce(
-                                            varLocalizedText,
-                                            varDefault
-                                        ),
-                                        Coalesce(
-                                            Substitute(
-                                                Substitute(
-                                                    Substitute(
-                                                        varLocalizedText,
-                                                        "{0}",
-                                                        Text(varParam0)
-                                                    ),
-                                                    "{1}",
-                                                    Text(varParam1)
-                                                ),
-                                                "{2}",
-                                                Text(varParam2)
-                                            ),
-                                            varDefault
-                                        )
-                                    )
-                                )
-                            )
-                        )
-                    )
-                Width: =110
-                X: =Parent.TemplateWidth - Self.Width
-                Y: =lblIdeaSummary_Status.Y
-                ZIndex: =5
-
             lblIdeaSummary_Title As label:
                 BorderColor: =gblAppStyles.Label.BorderColor
                 BorderThickness: =gblAppStyles.Label.BorderThickness
@@ -3767,12 +3487,7 @@
                 Text: |-
                     =Concatenate(
                         lblIdeaSummary_Title.Text,
-                        ", ",
-                        lblIdeaSummary_Description.Text,
-                        ", ",
-                        lblIdeaSummary_Status.Text,
-                        ", ",
-                        lblIdeaSummary_IdeaCount.Text
+                        ", "
                     )
                 Tooltip: =ThisItem.Description
                 Width: =Parent.TemplateWidth
