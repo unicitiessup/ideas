@@ -3699,8 +3699,8 @@
                 HintText: |-
                     =With(
                         {
-                            varDefault: "Search campaigns",
-                            varOOBTextId: "_translateCommon__Searchcampaigns"
+                            varDefault: "Search ideas",
+                            varOOBTextId: "_translateCommon__Searchideas"
                         },
                         With(
                             {
