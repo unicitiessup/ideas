@@ -1195,7 +1195,7 @@
       "MetaDataIDKey": "",
       "Name": "btnMobileBrowseCampaigns",
       "OptimizeForDevices": "Off",
-      "ParentIndex": 1,
+      "ParentIndex": 2,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -3290,7 +3290,7 @@
       "MetaDataIDKey": "",
       "Name": "conMobileCampaignSummaryLeaderboard",
       "OptimizeForDevices": "Off",
-      "ParentIndex": 0,
+      "ParentIndex": 3,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -3456,7 +3456,7 @@
       "MetaDataIDKey": "",
       "Name": "conMobileIncorrectContext",
       "OptimizeForDevices": "Off",
-      "ParentIndex": 1,
+      "ParentIndex": 2,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -5510,7 +5510,7 @@
       "MetaDataIDKey": "",
       "Name": "lblBlockUserInput_MobileLanding",
       "OptimizeForDevices": "Off",
-      "ParentIndex": 2,
+      "ParentIndex": 1,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -9469,7 +9469,7 @@
       "MetaDataIDKey": "",
       "Name": "lblMobileGreetingInstructions",
       "OptimizeForDevices": "Off",
-      "ParentIndex": 3,
+      "ParentIndex": 1,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -9947,7 +9947,7 @@
       "MetaDataIDKey": "",
       "Name": "lblMobileGreetingName",
       "OptimizeForDevices": "Off",
-      "ParentIndex": 2,
+      "ParentIndex": 0,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {

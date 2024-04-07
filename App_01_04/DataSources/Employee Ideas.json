@@ -10,6 +10,8 @@
     "Name": "Employee Ideas",
     "NativeCDSDataSourceInfoNameMapping": {
       "_ownerid_value": "Owner",
+      "craba_category": "Category",
+      "craba_status": "Status (craba_status)",
       "createdby": "Created By",
       "createdon": "Created On",
       "createdonbehalfby": "Created By (Delegate)",
@@ -43,7 +45,7 @@
       "owningbusinessunit": "Owning Business Unit",
       "owningteam": "Owning Team",
       "owninguser": "Owning User",
-      "statecode": "Status",
+      "statecode": "Status (statecode)",
       "statuscode": "Status Reason",
       "timezoneruleversionnumber": "Time Zone Rule Version Number",
       "utcconversiontimezonecode": "UTC Conversion Time Zone Code",
@@ -65,6 +67,47 @@
       "e21f3bc3-dc90-470a-9c99-a159c63a9393": "Employee Idea Advanced Find View",
       "fbff6de6-e006-4782-9a02-66b9106ff7e3": "Employee Idea Lookup View"
     }
+  },
+  {
+    "DisplayName": "Idea Categories",
+    "Name": "craba_ideacategories",
+    "OptionSetInfoNameMapping": {
+      "331300000": "Building",
+      "331300001": "Greening",
+      "331300002": "Landscaping"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": true,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "craba_category",
+        "OptionSetReferenceEntityName": "Employee Ideas"
+      }
+    },
+    "OptionSetTypeKey": "PicklistType",
+    "RelatedColumnInvariantName": "craba_category",
+    "RelatedEntityName": "Employee Ideas",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Idea Statuses",
+    "Name": "craba_ideastatuses",
+    "OptionSetInfoNameMapping": {
+      "0": "Closed",
+      "1": "Opened"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": true,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "craba_status",
+        "OptionSetReferenceEntityName": "Employee Ideas"
+      }
+    },
+    "OptionSetTypeKey": "PicklistType",
+    "RelatedColumnInvariantName": "craba_status",
+    "RelatedEntityName": "Employee Ideas",
+    "Type": "OptionSetInfo"
   },
   {
     "DisplayName": "Post To Teams? (Employee Ideas)",

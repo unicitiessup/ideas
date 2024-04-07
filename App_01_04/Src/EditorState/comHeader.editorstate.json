@@ -599,7 +599,7 @@
           "Category": "Data",
           "NameMap": "{\"headerLabel\":\"headerLabel\",\"headerScreen\":\"headerScreen\",\"headerTooltip\":\"headerTooltip\",\"headerWidth\":\"headerWidth\"}",
           "PropertyName": "inputHeaderSettings",
-          "RuleProviderType": "Unknown"
+          "RuleProviderType": "System"
         },
         {
           "Category": "Data",

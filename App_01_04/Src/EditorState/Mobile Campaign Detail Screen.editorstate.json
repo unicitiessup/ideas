@@ -249,7 +249,7 @@
       "MetaDataIDKey": "",
       "Name": "btnMobileCampaignDetailIdeas_Select",
       "OptimizeForDevices": "Off",
-      "ParentIndex": 6,
+      "ParentIndex": 3,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -703,7 +703,7 @@
       "MetaDataIDKey": "",
       "Name": "btnMobileCampaignDetails_Background",
       "OptimizeForDevices": "Off",
-      "ParentIndex": 2,
+      "ParentIndex": 1,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -3914,7 +3914,7 @@
       "MetaDataIDKey": "",
       "Name": "imgMobileCampaignDetail_CoverImage",
       "OptimizeForDevices": "Off",
-      "ParentIndex": 1,
+      "ParentIndex": 0,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -4224,7 +4224,7 @@
       "MetaDataIDKey": "",
       "Name": "imgMobileCampaignDetailsIdeas_Files",
       "OptimizeForDevices": "Off",
-      "ParentIndex": 5,
+      "ParentIndex": 11,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -4882,7 +4882,7 @@
       "MetaDataIDKey": "",
       "Name": "imgMoibleCampaignDetailsIdeas_CoverImage",
       "OptimizeForDevices": "Off",
-      "ParentIndex": 4,
+      "ParentIndex": 2,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -6544,7 +6544,7 @@
       "MetaDataIDKey": "",
       "Name": "lblMobileCampaignDetail_Title",
       "OptimizeForDevices": "Off",
-      "ParentIndex": 0,
+      "ParentIndex": 1,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -7024,7 +7024,7 @@
       "MetaDataIDKey": "",
       "Name": "lblMobileCampaignDetailsIdeas",
       "OptimizeForDevices": "Off",
-      "ParentIndex": 3,
+      "ParentIndex": 4,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -7937,7 +7937,7 @@
       "MetaDataIDKey": "",
       "Name": "lblMobileCampaignDetailsIdeas_CreatedByOn",
       "OptimizeForDevices": "Off",
-      "ParentIndex": 10,
+      "ParentIndex": 5,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -8456,7 +8456,7 @@
       "MetaDataIDKey": "",
       "Name": "lblMobileCampaignDetailsIdeas_Description",
       "OptimizeForDevices": "Off",
-      "ParentIndex": 11,
+      "ParentIndex": 6,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -8922,7 +8922,7 @@
       "MetaDataIDKey": "",
       "Name": "lblMobileCampaignDetailsIdeas_Files",
       "OptimizeForDevices": "Off",
-      "ParentIndex": 1,
+      "ParentIndex": 10,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {

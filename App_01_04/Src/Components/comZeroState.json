@@ -116,7 +116,7 @@
         "OptimizeForDevices": "Off",
         "Parent": "comZeroState",
         "PersistMetaDataIDKey": false,
-        "PublishOrderIndex": 531,
+        "PublishOrderIndex": 530,
         "Rules": [
           {
             "Category": "Data",
@@ -430,7 +430,7 @@
         "OptimizeForDevices": "Off",
         "Parent": "comZeroState",
         "PersistMetaDataIDKey": false,
-        "PublishOrderIndex": 532,
+        "PublishOrderIndex": 531,
         "Rules": [
           {
             "Category": "Data",
@@ -709,7 +709,7 @@
       },
       "inputTextColor"
     ],
-    "LastModifiedTimestamp": "638475880702973367",
+    "LastModifiedTimestamp": "638481024178429715",
     "Name": "comZeroState",
     "Rules": [
       {
@@ -829,7 +829,7 @@
   "IsPcfControl": false,
   "IsPremiumPcfControl": false,
   "IsWidgetTemplate": false,
-  "LastModifiedTimestamp": "638475880702973367",
+  "LastModifiedTimestamp": "638481024178429715",
   "Name": "1e7d209f23424c549629936be4937ffa",
   "OverridableProperties": {},
   "Version": "637690644119801587"
