@@ -104,6 +104,156 @@
             {
               "logicalLocations": [
                 {
+                  "fullyQualifiedName": "'Mobile Idea Screen'.conMobileIdeaSubmission.cnvMobileCampaignIdeaSubmission.dtcMobileIdea_Responses.galMobileIdeaResponses.TabIndex"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Mobile Idea Screen'.conMobileIdeaSubmission.cnvMobileCampaignIdeaSubmission.dtcMobileIdea_Responses.galMobileIdeaResponses.TabIndex",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "TabIndex",
+                "module": "Mobile Idea Screen",
+                "type": "'Mobile Idea Screen'.conMobileIdeaSubmission.cnvMobileCampaignIdeaSubmission.dtcMobileIdea_Responses.galMobileIdeaResponses"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
+          "ruleIndex": 2
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Mobile Idea Screen'.conMobileIdeaSubmission.cnvMobileCampaignIdeaSubmission.dtcMobileIdea_Responses.galMobileIdeaResponses.galMobileIdeaResponseRating.TabIndex"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Mobile Idea Screen'.conMobileIdeaSubmission.cnvMobileCampaignIdeaSubmission.dtcMobileIdea_Responses.galMobileIdeaResponses.galMobileIdeaResponseRating.TabIndex",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "TabIndex",
+                "module": "Mobile Idea Screen",
+                "type": "'Mobile Idea Screen'.conMobileIdeaSubmission.cnvMobileCampaignIdeaSubmission.dtcMobileIdea_Responses.galMobileIdeaResponses.galMobileIdeaResponseRating"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
+          "ruleIndex": 2
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Mobile Idea Screen'.conMobileIdeaSubmission.cnvMobileCampaignIdeaSubmission.dtcMobileIdea_FilesImages.galMobileIdeaFiles.TabIndex"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Mobile Idea Screen'.conMobileIdeaSubmission.cnvMobileCampaignIdeaSubmission.dtcMobileIdea_FilesImages.galMobileIdeaFiles.TabIndex",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "TabIndex",
+                "module": "Mobile Idea Screen",
+                "type": "'Mobile Idea Screen'.conMobileIdeaSubmission.cnvMobileCampaignIdeaSubmission.dtcMobileIdea_FilesImages.galMobileIdeaFiles"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
+          "ruleIndex": 2
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Mobile Idea Screen'.conMobileIdeaSubmission.cnvMobileCampaignIdeaSubmission.dtcMobileIdea_FilesImages.galMobileIdeaFiles.btnMobileBackgroundIdeaFiles.TabIndex"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Mobile Idea Screen'.conMobileIdeaSubmission.cnvMobileCampaignIdeaSubmission.dtcMobileIdea_FilesImages.galMobileIdeaFiles.btnMobileBackgroundIdeaFiles.TabIndex",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "TabIndex",
+                "module": "Mobile Idea Screen",
+                "type": "'Mobile Idea Screen'.conMobileIdeaSubmission.cnvMobileCampaignIdeaSubmission.dtcMobileIdea_FilesImages.galMobileIdeaFiles.btnMobileBackgroundIdeaFiles"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
+          "ruleIndex": 2
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Mobile Idea Screen'.conMobileIdeaSubmission.cnvMobileCampaignIdeaSubmission.dtcMobileIdea_FilesImages.galMobileIdeaFiles.imgMobileIdeaFile_Delete.TabIndex"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Mobile Idea Screen'.conMobileIdeaSubmission.cnvMobileCampaignIdeaSubmission.dtcMobileIdea_FilesImages.galMobileIdeaFiles.imgMobileIdeaFile_Delete.TabIndex",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "TabIndex",
+                "module": "Mobile Idea Screen",
+                "type": "'Mobile Idea Screen'.conMobileIdeaSubmission.cnvMobileCampaignIdeaSubmission.dtcMobileIdea_FilesImages.galMobileIdeaFiles.imgMobileIdeaFile_Delete"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
+          "ruleIndex": 2
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
                   "fullyQualifiedName": "'Campaign Summary Screen'.conCampaignSummaryLeaderboard.conCampaignStatsTopContributors.btnBackgroundStatsTopContributors.TabIndex"
                 }
               ],
@@ -357,156 +507,6 @@
                 "member": "TabIndex",
                 "module": "Campaign Summary Screen",
                 "type": "'Campaign Summary Screen'.conIdeaSummary.galIdeaSummary"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
-          "ruleIndex": 2
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Mobile Idea Screen'.conMobileIdeaSubmission.cnvMobileCampaignIdeaSubmission.dtcMobileIdea_Responses.galMobileIdeaResponses.TabIndex"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Mobile Idea Screen'.conMobileIdeaSubmission.cnvMobileCampaignIdeaSubmission.dtcMobileIdea_Responses.galMobileIdeaResponses.TabIndex",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "TabIndex",
-                "module": "Mobile Idea Screen",
-                "type": "'Mobile Idea Screen'.conMobileIdeaSubmission.cnvMobileCampaignIdeaSubmission.dtcMobileIdea_Responses.galMobileIdeaResponses"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
-          "ruleIndex": 2
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Mobile Idea Screen'.conMobileIdeaSubmission.cnvMobileCampaignIdeaSubmission.dtcMobileIdea_Responses.galMobileIdeaResponses.galMobileIdeaResponseRating.TabIndex"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Mobile Idea Screen'.conMobileIdeaSubmission.cnvMobileCampaignIdeaSubmission.dtcMobileIdea_Responses.galMobileIdeaResponses.galMobileIdeaResponseRating.TabIndex",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "TabIndex",
-                "module": "Mobile Idea Screen",
-                "type": "'Mobile Idea Screen'.conMobileIdeaSubmission.cnvMobileCampaignIdeaSubmission.dtcMobileIdea_Responses.galMobileIdeaResponses.galMobileIdeaResponseRating"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
-          "ruleIndex": 2
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Mobile Idea Screen'.conMobileIdeaSubmission.cnvMobileCampaignIdeaSubmission.dtcMobileIdea_FilesImages.galMobileIdeaFiles.TabIndex"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Mobile Idea Screen'.conMobileIdeaSubmission.cnvMobileCampaignIdeaSubmission.dtcMobileIdea_FilesImages.galMobileIdeaFiles.TabIndex",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "TabIndex",
-                "module": "Mobile Idea Screen",
-                "type": "'Mobile Idea Screen'.conMobileIdeaSubmission.cnvMobileCampaignIdeaSubmission.dtcMobileIdea_FilesImages.galMobileIdeaFiles"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
-          "ruleIndex": 2
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Mobile Idea Screen'.conMobileIdeaSubmission.cnvMobileCampaignIdeaSubmission.dtcMobileIdea_FilesImages.galMobileIdeaFiles.btnMobileBackgroundIdeaFiles.TabIndex"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Mobile Idea Screen'.conMobileIdeaSubmission.cnvMobileCampaignIdeaSubmission.dtcMobileIdea_FilesImages.galMobileIdeaFiles.btnMobileBackgroundIdeaFiles.TabIndex",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "TabIndex",
-                "module": "Mobile Idea Screen",
-                "type": "'Mobile Idea Screen'.conMobileIdeaSubmission.cnvMobileCampaignIdeaSubmission.dtcMobileIdea_FilesImages.galMobileIdeaFiles.btnMobileBackgroundIdeaFiles"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
-          "ruleIndex": 2
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Mobile Idea Screen'.conMobileIdeaSubmission.cnvMobileCampaignIdeaSubmission.dtcMobileIdea_FilesImages.galMobileIdeaFiles.imgMobileIdeaFile_Delete.TabIndex"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Mobile Idea Screen'.conMobileIdeaSubmission.cnvMobileCampaignIdeaSubmission.dtcMobileIdea_FilesImages.galMobileIdeaFiles.imgMobileIdeaFile_Delete.TabIndex",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "TabIndex",
-                "module": "Mobile Idea Screen",
-                "type": "'Mobile Idea Screen'.conMobileIdeaSubmission.cnvMobileCampaignIdeaSubmission.dtcMobileIdea_FilesImages.galMobileIdeaFiles.imgMobileIdeaFile_Delete"
               }
             }
           ],

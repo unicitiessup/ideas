@@ -2939,9 +2939,11 @@
         ZIndex: =9
 
     conIdeaSummary As groupContainer.manualLayoutContainer:
+        ChildTabPriority: =false
+        EnableChildFocus: =false
         Height: =320
         Width: =Parent.Width
-        Y: =conCampaignSummary.Y + conCampaignSummary.Height + 8 - 600
+        Y: =conCampaignSummary.Y + conCampaignSummary.Height + 8
         ZIndex: =10
 
         "galIdeaSummary As gallery.'BrowseLayout_Vertical_TwoTextOneImageVariant_ver4.0'":
