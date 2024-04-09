@@ -1672,7 +1672,7 @@
       "MetaDataIDKey": "",
       "Name": "btnCampaignSummary_Add",
       "OptimizeForDevices": "Off",
-      "ParentIndex": 2,
+      "ParentIndex": 0,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -3514,7 +3514,7 @@
       "MetaDataIDKey": "",
       "Name": "btnSplashPowerApps_Back",
       "OptimizeForDevices": "Off",
-      "ParentIndex": 6,
+      "ParentIndex": 5,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -3961,7 +3961,7 @@
       "MetaDataIDKey": "",
       "Name": "btnSplashPowerApps_Proceed",
       "OptimizeForDevices": "Off",
-      "ParentIndex": 5,
+      "ParentIndex": 4,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -4523,7 +4523,7 @@
       "MetaDataIDKey": "",
       "Name": "chkSplashPowerApps_DoNotShowAgain",
       "OptimizeForDevices": "Off",
-      "ParentIndex": 4,
+      "ParentIndex": 6,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -11982,7 +11982,7 @@
       "MetaDataIDKey": "",
       "Name": "imgCampaigSummary_Search",
       "OptimizeForDevices": "Off",
-      "ParentIndex": 1,
+      "ParentIndex": 2,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -25093,7 +25093,7 @@
       "MetaDataIDKey": "",
       "Name": "txtCampaignSummary_Search",
       "OptimizeForDevices": "Off",
-      "ParentIndex": 0,
+      "ParentIndex": 1,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {

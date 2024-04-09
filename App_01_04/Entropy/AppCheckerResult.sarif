@@ -104,6 +104,96 @@
             {
               "logicalLocations": [
                 {
+                  "fullyQualifiedName": "'Mobile Campaign Summary Screen'.conMobileCampaignSummary.conMobileCampaignSummarySearch.imgMobileCampaigSummary_Search.TabIndex"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Mobile Campaign Summary Screen'.conMobileCampaignSummary.conMobileCampaignSummarySearch.imgMobileCampaigSummary_Search.TabIndex",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "TabIndex",
+                "module": "Mobile Campaign Summary Screen",
+                "type": "'Mobile Campaign Summary Screen'.conMobileCampaignSummary.conMobileCampaignSummarySearch.imgMobileCampaigSummary_Search"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
+          "ruleIndex": 2
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Mobile Campaign Summary Screen'.conMobileCampaignSummary.galMobileCampaignSummary.TabIndex"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Mobile Campaign Summary Screen'.conMobileCampaignSummary.galMobileCampaignSummary.TabIndex",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "TabIndex",
+                "module": "Mobile Campaign Summary Screen",
+                "type": "'Mobile Campaign Summary Screen'.conMobileCampaignSummary.galMobileCampaignSummary"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
+          "ruleIndex": 2
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Mobile Campaign Summary Screen'.conMobileCampaignSummary.galMobileCampaignSummary.btnMobileCampaignSummary_Background.TabIndex"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Mobile Campaign Summary Screen'.conMobileCampaignSummary.galMobileCampaignSummary.btnMobileCampaignSummary_Background.TabIndex",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "TabIndex",
+                "module": "Mobile Campaign Summary Screen",
+                "type": "'Mobile Campaign Summary Screen'.conMobileCampaignSummary.galMobileCampaignSummary.btnMobileCampaignSummary_Background"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
+          "ruleIndex": 2
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
                   "fullyQualifiedName": "'Mobile Idea Screen'.conMobileIdeaSubmission.cnvMobileCampaignIdeaSubmission.dtcMobileIdea_Responses.galMobileIdeaResponses.TabIndex"
                 }
               ],
@@ -237,366 +327,6 @@
                 "member": "TabIndex",
                 "module": "Mobile Idea Screen",
                 "type": "'Mobile Idea Screen'.conMobileIdeaSubmission.cnvMobileCampaignIdeaSubmission.dtcMobileIdea_FilesImages.galMobileIdeaFiles.imgMobileIdeaFile_Delete"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
-          "ruleIndex": 2
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Campaign Summary Screen'.conCampaignSummaryLeaderboard.conCampaignStatsTopContributors.btnBackgroundStatsTopContributors.TabIndex"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Campaign Summary Screen'.conCampaignSummaryLeaderboard.conCampaignStatsTopContributors.btnBackgroundStatsTopContributors.TabIndex",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "TabIndex",
-                "module": "Campaign Summary Screen",
-                "type": "'Campaign Summary Screen'.conCampaignSummaryLeaderboard.conCampaignStatsTopContributors.btnBackgroundStatsTopContributors"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
-          "ruleIndex": 2
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Campaign Summary Screen'.conCampaignSummaryLeaderboard.conCampaignStatsTopContributors.galCampaignStatsTopContributors.TabIndex"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Campaign Summary Screen'.conCampaignSummaryLeaderboard.conCampaignStatsTopContributors.galCampaignStatsTopContributors.TabIndex",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "TabIndex",
-                "module": "Campaign Summary Screen",
-                "type": "'Campaign Summary Screen'.conCampaignSummaryLeaderboard.conCampaignStatsTopContributors.galCampaignStatsTopContributors"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
-          "ruleIndex": 2
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Campaign Summary Screen'.conCampaignSummaryLeaderboard.conCampaignStatsTopIdeas.btnBackgroundStatsTopIdeas.TabIndex"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Campaign Summary Screen'.conCampaignSummaryLeaderboard.conCampaignStatsTopIdeas.btnBackgroundStatsTopIdeas.TabIndex",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "TabIndex",
-                "module": "Campaign Summary Screen",
-                "type": "'Campaign Summary Screen'.conCampaignSummaryLeaderboard.conCampaignStatsTopIdeas.btnBackgroundStatsTopIdeas"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
-          "ruleIndex": 2
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Campaign Summary Screen'.conCampaignSummaryLeaderboard.conCampaignStatsTopIdeas.galCampaignStatsTopIdeas.TabIndex"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Campaign Summary Screen'.conCampaignSummaryLeaderboard.conCampaignStatsTopIdeas.galCampaignStatsTopIdeas.TabIndex",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "TabIndex",
-                "module": "Campaign Summary Screen",
-                "type": "'Campaign Summary Screen'.conCampaignSummaryLeaderboard.conCampaignStatsTopIdeas.galCampaignStatsTopIdeas"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
-          "ruleIndex": 2
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Campaign Summary Screen'.conCampaignSummary.conCampaignSummarySearch.imgCampaigSummary_Search.TabIndex"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Campaign Summary Screen'.conCampaignSummary.conCampaignSummarySearch.imgCampaigSummary_Search.TabIndex",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "TabIndex",
-                "module": "Campaign Summary Screen",
-                "type": "'Campaign Summary Screen'.conCampaignSummary.conCampaignSummarySearch.imgCampaigSummary_Search"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
-          "ruleIndex": 2
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Campaign Summary Screen'.conCampaignSummary.galCampaignSummary.TabIndex"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Campaign Summary Screen'.conCampaignSummary.galCampaignSummary.TabIndex",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "TabIndex",
-                "module": "Campaign Summary Screen",
-                "type": "'Campaign Summary Screen'.conCampaignSummary.galCampaignSummary"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
-          "ruleIndex": 2
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Campaign Summary Screen'.conCampaignSummary.galCampaignSummary.btnCampaignSummary_Background.TabIndex"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Campaign Summary Screen'.conCampaignSummary.galCampaignSummary.btnCampaignSummary_Background.TabIndex",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "TabIndex",
-                "module": "Campaign Summary Screen",
-                "type": "'Campaign Summary Screen'.conCampaignSummary.galCampaignSummary.btnCampaignSummary_Background"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
-          "ruleIndex": 2
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Campaign Summary Screen'.conIdeaSummary.conIdeaSummarySearch.imgIdeaSummary_Search.TabIndex"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Campaign Summary Screen'.conIdeaSummary.conIdeaSummarySearch.imgIdeaSummary_Search.TabIndex",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "TabIndex",
-                "module": "Campaign Summary Screen",
-                "type": "'Campaign Summary Screen'.conIdeaSummary.conIdeaSummarySearch.imgIdeaSummary_Search"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
-          "ruleIndex": 2
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Campaign Summary Screen'.conIdeaSummary.galIdeaSummary.TabIndex"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Campaign Summary Screen'.conIdeaSummary.galIdeaSummary.TabIndex",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "TabIndex",
-                "module": "Campaign Summary Screen",
-                "type": "'Campaign Summary Screen'.conIdeaSummary.galIdeaSummary"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
-          "ruleIndex": 2
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Mobile Campaign Summary Screen'.conMobileCampaignSummary.conMobileCampaignSummarySearch.imgMobileCampaigSummary_Search.TabIndex"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Mobile Campaign Summary Screen'.conMobileCampaignSummary.conMobileCampaignSummarySearch.imgMobileCampaigSummary_Search.TabIndex",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "TabIndex",
-                "module": "Mobile Campaign Summary Screen",
-                "type": "'Mobile Campaign Summary Screen'.conMobileCampaignSummary.conMobileCampaignSummarySearch.imgMobileCampaigSummary_Search"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
-          "ruleIndex": 2
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Mobile Campaign Summary Screen'.conMobileCampaignSummary.galMobileCampaignSummary.TabIndex"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Mobile Campaign Summary Screen'.conMobileCampaignSummary.galMobileCampaignSummary.TabIndex",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "TabIndex",
-                "module": "Mobile Campaign Summary Screen",
-                "type": "'Mobile Campaign Summary Screen'.conMobileCampaignSummary.galMobileCampaignSummary"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
-          "ruleIndex": 2
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Mobile Campaign Summary Screen'.conMobileCampaignSummary.galMobileCampaignSummary.btnMobileCampaignSummary_Background.TabIndex"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Mobile Campaign Summary Screen'.conMobileCampaignSummary.galMobileCampaignSummary.btnMobileCampaignSummary_Background.TabIndex",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "TabIndex",
-                "module": "Mobile Campaign Summary Screen",
-                "type": "'Mobile Campaign Summary Screen'.conMobileCampaignSummary.galMobileCampaignSummary.btnMobileCampaignSummary_Background"
               }
             }
           ],
@@ -1887,6 +1617,276 @@
                 "member": "TabIndex",
                 "module": "Mobile Landing Screen",
                 "type": "'Mobile Landing Screen'.conMobileLanding.conMobileCampaignSummaryLeaderboard.conMobileCampaignStatsTopIdeas.galMobileCampaignStatsTopIdeas"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
+          "ruleIndex": 2
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Campaign Summary Screen'.conCampaignSummaryLeaderboard.conCampaignStatsTopContributors.btnBackgroundStatsTopContributors.TabIndex"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Campaign Summary Screen'.conCampaignSummaryLeaderboard.conCampaignStatsTopContributors.btnBackgroundStatsTopContributors.TabIndex",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "TabIndex",
+                "module": "Campaign Summary Screen",
+                "type": "'Campaign Summary Screen'.conCampaignSummaryLeaderboard.conCampaignStatsTopContributors.btnBackgroundStatsTopContributors"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
+          "ruleIndex": 2
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Campaign Summary Screen'.conCampaignSummaryLeaderboard.conCampaignStatsTopContributors.galCampaignStatsTopContributors.TabIndex"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Campaign Summary Screen'.conCampaignSummaryLeaderboard.conCampaignStatsTopContributors.galCampaignStatsTopContributors.TabIndex",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "TabIndex",
+                "module": "Campaign Summary Screen",
+                "type": "'Campaign Summary Screen'.conCampaignSummaryLeaderboard.conCampaignStatsTopContributors.galCampaignStatsTopContributors"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
+          "ruleIndex": 2
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Campaign Summary Screen'.conCampaignSummaryLeaderboard.conCampaignStatsTopIdeas.btnBackgroundStatsTopIdeas.TabIndex"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Campaign Summary Screen'.conCampaignSummaryLeaderboard.conCampaignStatsTopIdeas.btnBackgroundStatsTopIdeas.TabIndex",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "TabIndex",
+                "module": "Campaign Summary Screen",
+                "type": "'Campaign Summary Screen'.conCampaignSummaryLeaderboard.conCampaignStatsTopIdeas.btnBackgroundStatsTopIdeas"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
+          "ruleIndex": 2
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Campaign Summary Screen'.conCampaignSummaryLeaderboard.conCampaignStatsTopIdeas.galCampaignStatsTopIdeas.TabIndex"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Campaign Summary Screen'.conCampaignSummaryLeaderboard.conCampaignStatsTopIdeas.galCampaignStatsTopIdeas.TabIndex",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "TabIndex",
+                "module": "Campaign Summary Screen",
+                "type": "'Campaign Summary Screen'.conCampaignSummaryLeaderboard.conCampaignStatsTopIdeas.galCampaignStatsTopIdeas"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
+          "ruleIndex": 2
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Campaign Summary Screen'.conCampaignSummary.conCampaignSummarySearch.imgCampaigSummary_Search.TabIndex"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Campaign Summary Screen'.conCampaignSummary.conCampaignSummarySearch.imgCampaigSummary_Search.TabIndex",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "TabIndex",
+                "module": "Campaign Summary Screen",
+                "type": "'Campaign Summary Screen'.conCampaignSummary.conCampaignSummarySearch.imgCampaigSummary_Search"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
+          "ruleIndex": 2
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Campaign Summary Screen'.conCampaignSummary.galCampaignSummary.TabIndex"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Campaign Summary Screen'.conCampaignSummary.galCampaignSummary.TabIndex",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "TabIndex",
+                "module": "Campaign Summary Screen",
+                "type": "'Campaign Summary Screen'.conCampaignSummary.galCampaignSummary"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
+          "ruleIndex": 2
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Campaign Summary Screen'.conCampaignSummary.galCampaignSummary.btnCampaignSummary_Background.TabIndex"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Campaign Summary Screen'.conCampaignSummary.galCampaignSummary.btnCampaignSummary_Background.TabIndex",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "TabIndex",
+                "module": "Campaign Summary Screen",
+                "type": "'Campaign Summary Screen'.conCampaignSummary.galCampaignSummary.btnCampaignSummary_Background"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
+          "ruleIndex": 2
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Campaign Summary Screen'.conIdeaSummary.conIdeaSummarySearch.imgIdeaSummary_Search.TabIndex"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Campaign Summary Screen'.conIdeaSummary.conIdeaSummarySearch.imgIdeaSummary_Search.TabIndex",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "TabIndex",
+                "module": "Campaign Summary Screen",
+                "type": "'Campaign Summary Screen'.conIdeaSummary.conIdeaSummarySearch.imgIdeaSummary_Search"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
+          "ruleIndex": 2
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Campaign Summary Screen'.conIdeaSummary.galIdeaSummary.TabIndex"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Campaign Summary Screen'.conIdeaSummary.galIdeaSummary.TabIndex",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "TabIndex",
+                "module": "Campaign Summary Screen",
+                "type": "'Campaign Summary Screen'.conIdeaSummary.galIdeaSummary"
               }
             }
           ],
