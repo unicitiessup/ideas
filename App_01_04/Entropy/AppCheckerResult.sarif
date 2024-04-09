@@ -104,276 +104,6 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "'Mobile Landing Screen'.conMobileLanding.conMobileCampaignSummaryLeaderboard.conMobileCampaignStatsTopContributors.btnMobileBackgroundStatsTopContributors.TabIndex"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Mobile Landing Screen'.conMobileLanding.conMobileCampaignSummaryLeaderboard.conMobileCampaignStatsTopContributors.btnMobileBackgroundStatsTopContributors.TabIndex",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "TabIndex",
-                "module": "Mobile Landing Screen",
-                "type": "'Mobile Landing Screen'.conMobileLanding.conMobileCampaignSummaryLeaderboard.conMobileCampaignStatsTopContributors.btnMobileBackgroundStatsTopContributors"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
-          "ruleIndex": 2
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Mobile Landing Screen'.conMobileLanding.conMobileCampaignSummaryLeaderboard.conMobileCampaignStatsTopContributors.galMobileCampaignStatsTopContributors.TabIndex"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Mobile Landing Screen'.conMobileLanding.conMobileCampaignSummaryLeaderboard.conMobileCampaignStatsTopContributors.galMobileCampaignStatsTopContributors.TabIndex",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "TabIndex",
-                "module": "Mobile Landing Screen",
-                "type": "'Mobile Landing Screen'.conMobileLanding.conMobileCampaignSummaryLeaderboard.conMobileCampaignStatsTopContributors.galMobileCampaignStatsTopContributors"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
-          "ruleIndex": 2
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Mobile Landing Screen'.conMobileLanding.conMobileCampaignSummaryLeaderboard.conMobileCampaignStatsTopIdeas.btnMobileBackgroundStatsTopIdeas.TabIndex"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Mobile Landing Screen'.conMobileLanding.conMobileCampaignSummaryLeaderboard.conMobileCampaignStatsTopIdeas.btnMobileBackgroundStatsTopIdeas.TabIndex",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "TabIndex",
-                "module": "Mobile Landing Screen",
-                "type": "'Mobile Landing Screen'.conMobileLanding.conMobileCampaignSummaryLeaderboard.conMobileCampaignStatsTopIdeas.btnMobileBackgroundStatsTopIdeas"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
-          "ruleIndex": 2
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Mobile Landing Screen'.conMobileLanding.conMobileCampaignSummaryLeaderboard.conMobileCampaignStatsTopIdeas.galMobileCampaignStatsTopIdeas.TabIndex"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Mobile Landing Screen'.conMobileLanding.conMobileCampaignSummaryLeaderboard.conMobileCampaignStatsTopIdeas.galMobileCampaignStatsTopIdeas.TabIndex",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "TabIndex",
-                "module": "Mobile Landing Screen",
-                "type": "'Mobile Landing Screen'.conMobileLanding.conMobileCampaignSummaryLeaderboard.conMobileCampaignStatsTopIdeas.galMobileCampaignStatsTopIdeas"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
-          "ruleIndex": 2
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Loading Screen'.conLoading_HiddenHelper.galHiddenImagePreload_Campaigns.TabIndex"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Loading Screen'.conLoading_HiddenHelper.galHiddenImagePreload_Campaigns.TabIndex",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "TabIndex",
-                "module": "Loading Screen",
-                "type": "'Loading Screen'.conLoading_HiddenHelper.galHiddenImagePreload_Campaigns"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
-          "ruleIndex": 2
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Loading Screen'.conLoading_HiddenHelper.galHiddenImagePreload_Ideas.TabIndex"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Loading Screen'.conLoading_HiddenHelper.galHiddenImagePreload_Ideas.TabIndex",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "TabIndex",
-                "module": "Loading Screen",
-                "type": "'Loading Screen'.conLoading_HiddenHelper.galHiddenImagePreload_Ideas"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
-          "ruleIndex": 2
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Loading Screen'.conLoading_Visible.galLoadingLogos.TabIndex"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Loading Screen'.conLoading_Visible.galLoadingLogos.TabIndex",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "TabIndex",
-                "module": "Loading Screen",
-                "type": "'Loading Screen'.conLoading_Visible.galLoadingLogos"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
-          "ruleIndex": 2
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Settings Screen'.conSettingsNav.galSettings.TabIndex"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Settings Screen'.conSettingsNav.galSettings.TabIndex",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "TabIndex",
-                "module": "Settings Screen",
-                "type": "'Settings Screen'.conSettingsNav.galSettings"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
-          "ruleIndex": 2
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'Settings Screen'.conSettingsArea.cnvSettings.dtcSettings_NotificationsConfig.imgSettings_TeamInstructions_Suggestion.TabIndex"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'Settings Screen'.conSettingsArea.cnvSettings.dtcSettings_NotificationsConfig.imgSettings_TeamInstructions_Suggestion.TabIndex",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "TabIndex",
-                "module": "Settings Screen",
-                "type": "'Settings Screen'.conSettingsArea.cnvSettings.dtcSettings_NotificationsConfig.imgSettings_TeamInstructions_Suggestion"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
-          "ruleIndex": 2
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
                   "fullyQualifiedName": "'Mobile Campaign Summary Screen'.conMobileCampaignSummary.conMobileCampaignSummarySearch.imgMobileCampaigSummary_Search.TabIndex"
                 }
               ],
@@ -537,6 +267,126 @@
                 "member": "TabIndex",
                 "module": "Mobile Campaign Detail Screen",
                 "type": "'Mobile Campaign Detail Screen'.conMobileCampaignDetailsPane.cnvMobileCampaignDetails.dtcMobileCampaignDetails_Ideas.conMobileCampaignDetailsIdeas.galMobileCampaignDetailsIdeas.imgMobileCampaignDetailsIdeas_Votes"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
+          "ruleIndex": 2
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Mobile Landing Screen'.conMobileLanding.conMobileCampaignSummaryLeaderboard.conMobileCampaignStatsTopContributors.btnMobileBackgroundStatsTopContributors.TabIndex"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Mobile Landing Screen'.conMobileLanding.conMobileCampaignSummaryLeaderboard.conMobileCampaignStatsTopContributors.btnMobileBackgroundStatsTopContributors.TabIndex",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "TabIndex",
+                "module": "Mobile Landing Screen",
+                "type": "'Mobile Landing Screen'.conMobileLanding.conMobileCampaignSummaryLeaderboard.conMobileCampaignStatsTopContributors.btnMobileBackgroundStatsTopContributors"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
+          "ruleIndex": 2
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Mobile Landing Screen'.conMobileLanding.conMobileCampaignSummaryLeaderboard.conMobileCampaignStatsTopContributors.galMobileCampaignStatsTopContributors.TabIndex"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Mobile Landing Screen'.conMobileLanding.conMobileCampaignSummaryLeaderboard.conMobileCampaignStatsTopContributors.galMobileCampaignStatsTopContributors.TabIndex",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "TabIndex",
+                "module": "Mobile Landing Screen",
+                "type": "'Mobile Landing Screen'.conMobileLanding.conMobileCampaignSummaryLeaderboard.conMobileCampaignStatsTopContributors.galMobileCampaignStatsTopContributors"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
+          "ruleIndex": 2
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Mobile Landing Screen'.conMobileLanding.conMobileCampaignSummaryLeaderboard.conMobileCampaignStatsTopIdeas.btnMobileBackgroundStatsTopIdeas.TabIndex"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Mobile Landing Screen'.conMobileLanding.conMobileCampaignSummaryLeaderboard.conMobileCampaignStatsTopIdeas.btnMobileBackgroundStatsTopIdeas.TabIndex",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "TabIndex",
+                "module": "Mobile Landing Screen",
+                "type": "'Mobile Landing Screen'.conMobileLanding.conMobileCampaignSummaryLeaderboard.conMobileCampaignStatsTopIdeas.btnMobileBackgroundStatsTopIdeas"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
+          "ruleIndex": 2
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Mobile Landing Screen'.conMobileLanding.conMobileCampaignSummaryLeaderboard.conMobileCampaignStatsTopIdeas.galMobileCampaignStatsTopIdeas.TabIndex"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Mobile Landing Screen'.conMobileLanding.conMobileCampaignSummaryLeaderboard.conMobileCampaignStatsTopIdeas.galMobileCampaignStatsTopIdeas.TabIndex",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "TabIndex",
+                "module": "Mobile Landing Screen",
+                "type": "'Mobile Landing Screen'.conMobileLanding.conMobileCampaignSummaryLeaderboard.conMobileCampaignStatsTopIdeas.galMobileCampaignStatsTopIdeas"
               }
             }
           ],
@@ -1887,6 +1737,156 @@
                 "member": "TabIndex",
                 "module": "Campaign Detail Screen",
                 "type": "'Campaign Detail Screen'.conCampaignIdeaPane.canvCampaignResponsesFilesImages.dtcFilesImages.galIdeaFiles.imgIdeaFile_Delete"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
+          "ruleIndex": 2
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Loading Screen'.conLoading_HiddenHelper.galHiddenImagePreload_Campaigns.TabIndex"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Loading Screen'.conLoading_HiddenHelper.galHiddenImagePreload_Campaigns.TabIndex",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "TabIndex",
+                "module": "Loading Screen",
+                "type": "'Loading Screen'.conLoading_HiddenHelper.galHiddenImagePreload_Campaigns"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
+          "ruleIndex": 2
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Loading Screen'.conLoading_HiddenHelper.galHiddenImagePreload_Ideas.TabIndex"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Loading Screen'.conLoading_HiddenHelper.galHiddenImagePreload_Ideas.TabIndex",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "TabIndex",
+                "module": "Loading Screen",
+                "type": "'Loading Screen'.conLoading_HiddenHelper.galHiddenImagePreload_Ideas"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
+          "ruleIndex": 2
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Loading Screen'.conLoading_Visible.galLoadingLogos.TabIndex"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Loading Screen'.conLoading_Visible.galLoadingLogos.TabIndex",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "TabIndex",
+                "module": "Loading Screen",
+                "type": "'Loading Screen'.conLoading_Visible.galLoadingLogos"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
+          "ruleIndex": 2
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Settings Screen'.conSettingsNav.galSettings.TabIndex"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Settings Screen'.conSettingsNav.galSettings.TabIndex",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "TabIndex",
+                "module": "Settings Screen",
+                "type": "'Settings Screen'.conSettingsNav.galSettings"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
+          "ruleIndex": 2
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'Settings Screen'.conSettingsArea.cnvSettings.dtcSettings_NotificationsConfig.imgSettings_TeamInstructions_Suggestion.TabIndex"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'Settings Screen'.conSettingsArea.cnvSettings.dtcSettings_NotificationsConfig.imgSettings_TeamInstructions_Suggestion.TabIndex",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "TabIndex",
+                "module": "Settings Screen",
+                "type": "'Settings Screen'.conSettingsArea.cnvSettings.dtcSettings_NotificationsConfig.imgSettings_TeamInstructions_Suggestion"
               }
             }
           ],

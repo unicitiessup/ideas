@@ -2,6 +2,7 @@ App As appinfo:
     BackEnabled: =false
     ConfirmExitMessage: =""
     MinScreenHeight: =930
+    MinScreenWidth: =920
     OnStart: |
         =/**READ ME START**
         Welcome to the app!
