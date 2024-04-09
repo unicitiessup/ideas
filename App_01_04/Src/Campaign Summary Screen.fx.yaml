@@ -2941,7 +2941,7 @@
     conIdeaSummary As groupContainer.manualLayoutContainer:
         Height: =320
         Width: =Parent.Width
-        Y: =conCampaignSummary.Y + conCampaignSummary.Height + 8
+        Y: =conCampaignSummary.Y + conCampaignSummary.Height + 8 - 600
         ZIndex: =10
 
         "galIdeaSummary As gallery.'BrowseLayout_Vertical_TwoTextOneImageVariant_ver4.0'":

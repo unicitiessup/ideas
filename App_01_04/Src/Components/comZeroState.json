@@ -709,7 +709,7 @@
       },
       "inputTextColor"
     ],
-    "LastModifiedTimestamp": "638482563583864064",
+    "LastModifiedTimestamp": "638482566795812215",
     "Name": "comZeroState",
     "Rules": [
       {
@@ -829,7 +829,7 @@
   "IsPcfControl": false,
   "IsPremiumPcfControl": false,
   "IsWidgetTemplate": false,
-  "LastModifiedTimestamp": "638482563583864064",
+  "LastModifiedTimestamp": "638482566795812215",
   "Name": "1e7d209f23424c549629936be4937ffa",
   "OverridableProperties": {},
   "Version": "637690644119801587"
